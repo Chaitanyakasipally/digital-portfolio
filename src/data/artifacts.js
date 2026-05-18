@@ -1,3 +1,5 @@
+import mlInfographic from '../assets/ML_Algorithms_infographic.png';
+
 export const artifacts = [
   {
     id: "artifact-1",
@@ -11,7 +13,7 @@ export const artifacts = [
     uniqueValue: "Synthesizes complex algorithmic concepts and domain applications into a single, visually accessible framework.",
     relevance: "Demonstrates strong foundational knowledge of machine learning concepts and the ability to communicate technical information clearly.",
     references: "[Link to Infographic/Visual Framework]",
-    image: "/ML_Algorithms_infographic.png",
+    image: mlInfographic,
     reflection: "Creating this visual framework was a highly clarifying exercise that bridged the gap between theoretical machine learning concepts and practical application architectures. Coming from a strong background in embedded software engineering and AUTOSAR, my typical focus has been on deterministic logic and strict functional safety. However, visually categorizing these algorithms forced me to adopt a higher-level, data-driven perspective. The process of distinguishing between Supervised, Unsupervised, and Deep Learning models highlighted the importance of selecting the right tool for the right domain. Ultimately, this experience not only deepened my academic comprehension of AI as I progress through my Master’s program, but it also equipped me with a practical mental model to approach complex, real-world data problems with more strategic agility."
   }
 ];
