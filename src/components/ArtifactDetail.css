@@ -1,0 +1,84 @@
+.artifact-detail {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.back-link:hover {
+  color: var(--accent-color);
+}
+
+.artifact-header {
+  margin-bottom: 4rem;
+  max-width: 800px;
+}
+
+.artifact-detail-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.artifact-detail-intro {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.artifact-content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.main-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.side-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detail-section {
+  padding: 2rem;
+}
+
+.detail-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.detail-section p {
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.reference-link {
+  word-break: break-all;
+}
+
+@media (max-width: 992px) {
+  .artifact-content-grid {
+    grid-template-columns: 1fr;
+  }
+}

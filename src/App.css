@@ -1,0 +1,11 @@
+/* Scoped component styles can go here if needed, but we mostly use index.css utility classes */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 4rem 0;
+}
