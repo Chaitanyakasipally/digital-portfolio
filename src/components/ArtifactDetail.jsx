@@ -37,7 +37,7 @@ const ArtifactDetail = () => {
 
           <section className="detail-section glass-panel">
             <h2>Process</h2>
-            <p>{artifact.process}</p>
+            <p style={{ whiteSpace: 'pre-wrap' }}>{artifact.process}</p>
           </section>
 
           <section className="detail-section glass-panel">
@@ -81,7 +81,7 @@ const ArtifactDetail = () => {
           {artifact.references && (
             <section className="detail-section glass-panel">
               <h2>References</h2>
-              <a href="#" className="reference-link">{artifact.references}</a>
+              <p style={{ whiteSpace: 'pre-wrap' }}>{artifact.references}</p>
             </section>
           )}
         </div>
