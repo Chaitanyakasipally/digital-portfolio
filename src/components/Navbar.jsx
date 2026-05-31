@@ -47,9 +47,9 @@ const Navbar = () => {
             </div>
             {dropdownOpen && (
               <div className="dropdown-content glass-panel">
-                {artifacts.map(artifact => (
+                {artifacts.map((artifact, index) => (
                   <Link key={artifact.id} to={`/artifact/${artifact.id}`} className="dropdown-item">
-                    {artifact.title}
+                    Artifact {index + 1}: {artifact.title}
                   </Link>
                 ))}
               </div>
